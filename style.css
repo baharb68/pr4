@@ -1,0 +1,286 @@
+
+/* navbar */
+.logo div{
+    width: 80px;
+}
+.navbar-brand h1{
+    font-size: 1.5rem;
+    color: #595c76 !important;
+}
+.navbar-brand span{
+    font-size: 1.5rem;
+    color: #da481b !important;
+}
+.navbar-desc{
+    font-size: 0.8rem;
+    color: #595c76 !important;
+    text-decoration: none;
+}
+.nav-item{
+    /* border-bottom:2px solid transparent; */
+    transition: all 0.4s;
+}
+.nav-item:hover{
+    /* border-bottom:2px solid #da481b; */
+    background-color:#da481b ;
+}
+.nav-item:hover a{
+    color: #fff !important;
+}
+.nav-link{
+    color: #595c76 !important;
+    font-size: 0.9rem;
+}
+/* carousel */
+.slidetxt{
+    width: 500px;
+}
+.slidetxt h2{
+    font-size: 2.5rem;
+    color: #fff !important;
+}
+.slidetxt p{
+    font-size: 1.2rem;
+    color: #fff !important;
+}
+.slidetxt button{
+    background-color:#da481b  ;
+    color: #fff;
+    transition: all 0.3s;
+    font-size: 0.8rem;
+    border-radius:0px;
+}
+.slidetxt button:hover{
+    background-color:#303455  ;
+    color: #fff;
+}
+/* service */
+.service-bg{
+    background-color: #f7f7f7;
+}
+.service{
+    transition:all 0.3s;
+    cursor: pointer;
+}
+.service:hover{
+    background-color:#303455 !important ;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(141, 133, 133);
+    z-index: 1;
+}
+.parttitle{
+    border-right: 5px solid #595c76 !important;
+}
+.parttitle h3{
+    font-size: 1.5rem;
+    color:#595c76 ;
+}
+.service:nth-child(odd){
+    background-color:#da481b  ;
+}
+.service:nth-child(even){
+    background-color:#fff ;
+}
+.service div{
+    background-color:#595c76;
+    width: 70px;
+    height: 70px;
+}
+.service h4{
+    color: #595c76;
+    font-size: 1rem;
+    transition:all 0.3s;
+}
+.service:hover h4{
+    color: #fff;
+}
+.service p{
+    color: #595c76;
+    font-size: 0.8rem;
+    line-height: 20px;
+    transition:all 0.3s;
+}
+.service:hover p{
+    color: #fff;
+}
+/* article */
+.article {
+    border:1px solid #f4f4f4;
+    transition: all 0.3s;
+    border-bottom: 4px solid #f4f4f4;
+}
+.article:hover{
+    background-color:#f5f5f5;
+    border-bottom: 4px solid #da481b;
+    cursor: pointer;
+}
+.article h4{
+    color: #252a54;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+.article:hover h4{
+    color: #da481b;
+}
+.article p{
+    color: #686b86;
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+.article button{
+    background-color:#252a54;
+    transition:all 0.3s;
+    font-size: 0.7rem;
+}
+.article:hover button{
+    background-color:#da481b;
+}
+/* offer */
+.offer{
+    cursor: pointer;
+}
+.offer .txt1{
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    font-size: 1rem;
+}
+.offer .txt2{
+    bottom: 0px !important;
+    background-color:#da481b ;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.offer .txt2 h4{
+    font-size: 1rem;
+}
+.offer .txt2 p{
+    font-size: 0.8rem;
+}
+.offer:hover .txt1{
+    opacity: 0;;
+}
+.offer:hover .txt2{
+    opacity: 1;
+}
+/* comment */
+.comment .parttitle{
+    border-right: 5px solid #fff !important;
+}
+.bg-comment{
+    background-image: url("./img/comment.jpg");
+    background-size: cover;
+}
+.comment h4{
+    font-size: 0.9rem;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    background-image: url("img/back-profile.png");
+    background-size: cover;
+}
+.content img{
+    width: 40px;
+    height: 40px;
+}
+.content p{
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+.content > div > img{
+    width: 20px;
+    height: 20px;
+}
+.comment h5{
+    font-size: 0.9rem;
+}
+/* top footer */
+
+.bg-blue{
+    background-color:#252a54;
+    width: 30px;
+    height: 30px;
+}
+.topfooter h4{
+    font-size: 1rem;
+}
+.topfooter > div{
+    border-left: 1px solid #e4e0e0;
+}
+.topfooter > div:last-child{
+    border-left: 0px;
+}
+.follow{
+    background-color:#252a54;
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s;
+}
+.follow:hover{
+    background-color:#da481b;
+    cursor: pointer;
+}
+/*top footer */
+.bg-footer{
+    background-color: #252a54;
+}
+.footer h4{
+    font-size: 1rem;
+    color: #cbcddd;
+}
+.footer .nav-item:hover{
+    background-color: transparent;
+}
+.footer .nav-link{
+    font-size: 0.8rem;
+    color: #cbcddd !important;
+}
+.footer .nav-link:hover{
+    font-size: 0.8rem;
+    color: #da481b !important;
+}
+.footer h5{
+    font-size: 0.8rem;
+    color: #cbcddd !important;
+}
+.articleitem img{
+    width: 40px;
+    height: auto;
+}
+.articleitem p{
+    font-size: 0.7rem !important;
+}
+.footer p{
+    font-size: 0.8rem;
+    color: #cbcddd !important;
+    line-height: 20px
+}
+form {
+    color:#c7cfe2 ;
+}
+form input , textarea{
+    /* background-color: #181616!important;
+    border: 1px solid #367daf !important; */
+}
+form label{
+    font-size: 0.8rem;
+
+}
+form button{
+    font-size: 0.8rem !important;
+    background-color:#323e58 !important;
+    color: #fff !important;
+}
+form button:hover{
+    background-color:#da481b !important;
+    color: #fff !important;
+}
+.bg-end{
+    background-color:#383c69 ;
+    font-size: 0.8rem;
+    color: #cbcddd !important;
+
+}
